@@ -40,29 +40,34 @@
 }
 
 .slider-3 h2 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 700;
   color: #062b52;
   margin-top: 20px;
+
+}
+.slider-3 h3{
+  font-size: 18px ;
+color: black;
 }
 
-.slider-3 p1 {
-  font-size: 18px;
-  color: #333;
-  margin-top: 15px;
+.slider-3 p {
+  font-size: 16px;
+  color: black;
+  padding-right: 98px;
 }
 
-.price-text {
+.slider-3 h4 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
   color: #062b52;
-  margin-top: 20px;
 }
 
-.highlight {
-  font-size: 30px;
-  font-weight: 900;
+.slider-3 h5 {
+  font-size: 27px;
+  font-weight: 500;
   margin: 10px 0 25px;
+  color: black;
 }
 
 button.carousel-control-prev,
@@ -71,4 +76,35 @@ button.carousel-control-next {
   width: 60px;
   height: 60px;
   margin: auto 20px;
+}
+.counter-section{
+  background-color: #ffcb08;
+  border-radius: 30px;
+}
+.counter-content h2{
+  font-size: 48px;
+  color: #03013a;
+  font-weight: 700;
+}
+.counter-content p{
+  font-size: 24px;
+  color: #03013a;
+  font-weight: 500;
+}
+.nav-pills .nav-link {
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: #000;
+    font-weight: 600;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ffc400;
+}
+.popular-section{
+  border-radius: 300px !important;
+}
+.shadow-sm p{
+  padding-right: 100px;
+  margin-bottom: 30px;
 }
