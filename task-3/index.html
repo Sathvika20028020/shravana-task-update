@@ -2,140 +2,238 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>firstedu</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FirstEdu</title>
 
+    <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
 
-    <link rel="stylesheet" href="/task-3/asset/css/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="/task-3/asset/css/style.css" />
+    <link rel="stylesheet" href="/task-3/asset/css/header.css">
 </head>
 
-<body>
-    <section class="background">
+<body style="font-family: 'Poppins', sans-serif;">
+
+    <header>
+        <!-- heade -->
+
+        <nav class="navbar navbar-expand-xl fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="/task-3/asset/images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav a ms-auto gap-3">
+                        <li><a href="#" class="nav-link"> HOME </a></li>
+                        <li><a href="/task-3/asset/about.html" class="nav-link"> ABOUT US </a></li>
+                        <li> <a href="#" class="nav-link"> WHY CHOOSE US </a></li>
+                        <li> <a href="#" class="nav-link text-md-center p-0">
+                                <p class="m-0 ">EXAMINATION</p>
+                            </a>
+                            <div class="d-flex d-inline scl-content ">
+                                <a href="#">SCL <span class="px-1">|</span> </a>
+                                <a href="#">COMP <span class="px-1">|</span> </a>
+                                <a href="#">Olymp <span class="px-1">|</span> </a>
+                            </div>
+                        </li>
+
+                        <li><a href="#" class="nav-link"> BLOG </a></li>
+                        <li><a href="#" class="nav-link"> CONTACT US </a></li>
+                        <div class="btn nav-btn d-inline-flex me-auto me-md-0 text-center ">
+                            <a href="#">LOGIN</a>
+                            <span class="px-1">|</span>
+                            <a href="#">SIGN UP</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <section class="background mt-5">
         <div class="container">
             <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
 
+
                 <div class="carousel-inner">
+
+
                     <div class="carousel-item active">
-                        <div class="container py-5 ">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 slider-1 p-5 ">
-                                    <h2 class="fw-bold display-5 mb-3">FirstEdu Brings Specially Designed Live Tests/
-                                        Exams
-                                        to Unravel The Hidden Potential Of Every HANUMAN</h2>
-                                    <p class="mb-5">Access unlimited time constrained Live exams focused to develop
-                                        confidence, sharpness, efficiency, competitive spirit, analytical ability and
-                                        courage to face any exam in the world.</p>
-
-                                    <button class="btn btn-warning px-4 py-2 mt-4">
-                                        VIEW LINK →
-                                    </button>
-                                </div>
-                                <div class="col-lg-6">
-                                    <img src="/task-3/asset/images/slider-img1.png" class="img-fluid ">
-                                </div>
+                        <div class="row align-items-center py-5">
+                            <div class="col-lg-6 mb-4 mb-lg-0 slider-1">
+                                <h2 class="fw-bold mb-3">
+                                    FirstEdu Brings Specially Designed Live Tests/ Exams to Unravel The Hidden Potential
+                                    Of Every HANUMAN
+                                </h2>
+                                <p class="mb-4">
+                                    Access unlimited time constrained Live exams focused to develop confidence,
+                                    sharpness, efficiency,
+                                    competitive spirit, analytical ability and courage to face any exam in the world.
+                                </p>
+                                <button class="btn btn-warning px-4 py-2">
+                                    VIEW LINK →
+                                </button>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <img src="/task-3/asset/images/slider-img1.png" class="img-fluid" alt="Slider 1" />
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="container py-5">
-                            <div class="row align-items-center">
-
-                                <div class="col-lg-6 slider-2 py-3 ">
-                                    <h1 class="mb-4">All the young, and Bright, Students........</h2>
-                                        <h2 class="fw-normal mb-2">ATTENTION</h3>
-                                            <h3 class="mb-3">First Step EDUTECH Introduces All India Social Stydy
-                                                Olympiad</h3>
-                                            <p class="mb-4">Exam will be conducted online and in two levels. Level 1
-                                                will be open for
-                                                everyone, however, only qualified students from level 1 will reach level
-                                                2 and compete for the GLORYYYYY.</p>
-
-                                            <h4 class="mb-4">Students will be writing the exam from the safety & comfort
-                                                of their
-                                                home.</h4>
-
-
-                                            <button class="btn btn-warning px-4 py-2 mt-4">
-                                                VIEW LINK →
-                                            </button>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <img src="/task-3/asset/images/slider-img2.png" class="img-fluid">
-                                </div>
-
+                    <div class="carousel-item ">
+                        <div class="row align-items-center py-5">
+                            <div class="col-lg-6 mb-4 mb-lg-0 slider-2">
+                                <h1 class="mb-3">All the young, and Bright, Students........</h1>
+                                <h2 class="mb-2">ATTENTION</h2>
+                                <h3 class="mb-3">
+                                    First Step EDUTECH Introduces All India Social Study Olympiad
+                                </h3>
+                                <p class="mb-3">
+                                    Exam will be conducted online and in two levels. Level 1 will be open for everyone,
+                                    however, only
+                                    qualified students from level 1 will reach level 2 and compete for the GLORY.
+                                </p>
+                                <h4 class="mb-3">
+                                    Students will be writing the exam from the safety & comfort of their home.
+                                </h4>
+                                <button class="btn btn-warning px-4 py-2">
+                                    VIEW LINK →
+                                </button>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <img src="/task-3/asset/images/slider-img2.png" class="img-fluid" alt="Slider 2" />
                             </div>
                         </div>
                     </div>
 
-
-
-
-                    <div class="carousel-item">
-                        <div class="container py-5">
-                            <div class="row align-items-center">
-
-                                <div class="col-lg-6 slider-3">
-                                    <h1 class="fw-bold mb-4 pb-1">Speed Test</h1>
-                                    <h2 class="pb-3 fw-bold">ATTENTION ATTENTION!!</h2>
-                                    <h3 class="fw-bold mb-2">FirstEdu launches SPEED TEST EXAMS!!</h3>
-                                    <p class="mb-3 fw-normal">
-                                        Still slow in calculations?? Do not worry!! We are here with the SPEED TESTS
-                                        to
-                                        enhance your speed and accuracy in calculations.
-                                    </p>
-                                    <h4 class=" mb-3">Just ₹50 per exams!!</h4>
-                                    <h5>HURRY UP NOW!!!!!!!</h5>
-                                    <button class="btn btn-warning px-4 py-2 mt-4">
-                                        VIEW LINK →
-                                    </button>
-                                </div>
-                                <div class="col-lg-6">
-                                    <img src="/task-3/asset/images/slider-img3.jpg" class="img-fluid">
-                                </div>
-
-
+                    <!-- Slide 3 -->
+                    <div class="carousel-item ">
+                        <div class="row align-items-center py-5">
+                            <div class="col-lg-6 mb-4 mb-lg-0 slider-3">
+                                <h1 class="mb-3">Speed Test</h1>
+                                <h2 class="mb-3">ATTENTION ATTENTION!!</h2>
+                                <h3 class="mb-2">FirstEdu launches SPEED TEST EXAMS!!</h3>
+                                <p class="mb-3">
+                                    Still slow in calculations?? Do not worry!! We are here with the SPEED TESTS to
+                                    enhance your speed and
+                                    accuracy in calculations.
+                                </p>
+                                <h4 class="mb-2">Just ₹50 per exam!!</h4>
+                                <h5>HURRY UP NOW!!!!!!!</h5>
+                                <button class="btn btn-warning px-4 py-2 mt-3">
+                                    VIEW LINK →
+                                </button>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <img src="/task-3/asset/images/slider-img3.jpg" class="img-fluid" alt="Slider 3" />
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon bg-warning rounded-circle p-3"></span>
-                    </button>
 
-                    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon bg-warning rounded-circle p-3"></span>
-                    </button>
+                    <!-- Slide 4 -->
+                    <div class="carousel-item ">
+                        <div class="row align-items-center py-5">
+                            <div class="col-lg-6 mb-4 mb-lg-0 slider-4">
+                                <h1 class="mb-3">Rev up your word power</h1>
+                                <h2 class="mb-3">Vocabulary LIVE SPEED Tests</h2>
+                                <h3 class="mb-3">
+                                    Accelerate your vocabulary skills with First Edu's Vocabulary Speed Tests
+                                </h3>
+                                <p class="mb-3">
+                                    #Time based exams #Online live exams #Available 24x7
+                                </p>
+                                <h3 class="mb-2">
+                                    Don't let words hold you back- take the fast track to linguistic mastery today!
+                                </h3>
+                                <h5>
+                                    ₹50 per exam. Grab the 20% discount by enrolling for all 10 exams at only ₹400!
+                                </h5>
+                                <button class="btn btn-warning px-4 py-2 mt-3">
+                                    VIEW LINK →
+                                </button>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <img src="/task-3/asset/images/slider-img4.jpg" class="img-fluid" alt="Slider 4" />
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Slide 5 -->
+                    <div class="carousel-item ">
+                        <div class="row align-items-center py-5">
+                            <div class="col-lg-6 mb-4 mb-lg-0 slider-5">
+                                <h1 class="mb-3">"WINNER" OF VINCI ART CONTEST</h1>
+                                <h2 class="mb-3">WINNER</h2>
+                                <h3 class="mb-3">
+                                    The winner is Shreesh Varma; we are proudly displaying his astonishing artwork.
+                                </h3>
+                                <p class="mb-3">
+                                    We are ecstatic to share that VINCI ART CONTEST 2024 was our first Online Event and
+                                    we got a huge
+                                    response and ended up with great success. We will come up with more and more new
+                                    events and real time
+                                    exams to sharpen the skills of students.
+                                </p>
+                                <h3 class="mb-2">
+                                    Our best wishes to Shreesh Varma for his future endeavours.
+                                </h3>
+                                <button class="btn btn-warning px-4 py-2 mt-3">
+                                    VIEW LINK →
+                                </button>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <img src="/task-3/asset/images/slider-img5.jpg" class="img-fluid" alt="Slider 5" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
+
+
             </div>
+        </div>
+        <button class="carousel-control-prev ps-5" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-warning rounded-circle p-3"></span>
+        </button>
+        <button class="carousel-control-next pe-5" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-warning rounded-circle p-3"></span>
+        </button>
     </section>
 
-    <section>
-        <div class="container mt-4">
-            <div class="counter-section  py-4">
-                <div class="row">
-                    <div class="col-3 counter-content text-center py-3">
-                        <h2 class="mb-1 ps-5 ">1999 <span class="text-light">+</span></h2>
+
+    <section class="mt-4">
+        <div class="container">
+            <div class="counter-section py-4 px-3 px-md-4">
+                <div class="row text-center">
+                    <div class="col-6 col-md-3 counter-content py-3">
+                        <h2>1999<span class="text-light">+</span></h2>
                         <p>Visitors</p>
                     </div>
-                    <div class="col-3 counter-content text-center py-3">
-                        <h2 class="mb-1 ps-4 ">1555<span class="text-light">+</span></h2>
+                    <div class="col-6 col-md-3 counter-content py-3">
+                        <h2>1555<span class="text-light">+</span></h2>
                         <p>Registered Students</p>
                     </div>
-                    <div class="col-3 counter-content text-center py-3">
-                        <h2 class="mb-1 ps-5 ">845 <span class="text-light">+</span></h2>
+                    <div class="col-6 col-md-3 counter-content py-3">
+                        <h2>845<span class="text-light">+</span></h2>
                         <p>Exams Taken</p>
                     </div>
-                    <div class="col-3 counter-content text-center py-3">
-                        <h2 class="mb-1 ps-4 ">610<span class="text-light">+</span></h2>
+                    <div class="col-6 col-md-3 counter-content1 py-3">
+                        <h2>610<span class="text-light">+</span></h2>
                         <p>Olympiad Attempted</p>
                     </div>
                 </div>
@@ -143,99 +241,701 @@
         </div>
     </section>
 
-    <ul class="nav nav-pills justify-content-center my-4" id="examTabs" role="tablist">
-        <li class="nav-item">
-            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#school">School Exam</button>
-        </li>
-        <li class="nav-item">
-            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#competitive">Competitive Exam</button>
-        </li>
-        <li class="nav-item">
-            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#olympiad">Olympiad Exam</button>
-        </li>
-    </ul>
-    <div class="tab-content">
 
-        <!-- SCHOOL EXAM TAB -->
-        <div class=" container tab-pane fade show active" id="school">
+    <section class="mt-5">
+        <div class="container text-center">
+            <h1 class="mb-3">Popular Exams</h1>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <ul class="list-unstyled tab-pills tabs" id="examTabs" role="tablist">
+                <li class="tab-item">
+                    <button class="tab-link active py-1 px-5 fw-normal" data-bs-toggle="pill" data-bs-target="#school">School Exam</button>
+                </li>
+                <li class="tab-item">
+                    <button class="tab-link py-1 px-5 fw-normal" data-bs-toggle="pill" data-bs-target="#competitive">Competitive
+                        Exam</button>
+                </li>
+                <li class="tab-item">
+                    <button class="tab-link py-1 px-5 fw-normal" data-bs-toggle="pill" data-bs-target="#olympiad">Olympiad Exam</button>
+                </li>
+            </ul>
+        </div>
 
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card p-4 shadow-sm position-relative">
+        <div class="tab-content mt-4">
 
-                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 rounded-pill px-3 py-2">
-                            Subjects : 5
-                        </span>
 
-                        <h5 class="fw-bold">CLASS 1</h5>
-                        <p>It covers English, Mathematics, Science and General Knowledge. Each subject is having 5 time
-                            bound exams with overall time restriction as well as question based time restriction to make
-                            child think fast with accuracy
+            <div class="tab-pane fade show active" id="school">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card p-4 shadow-sm position-relative rounded-5">
+                                <span
+                                    class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Subjects
+                                    : 5</span>
+                                <h5>CLASS 1</h5>
+                                <p>
+                                    It covers English, Mathematics, Science and General Knowledge. Each subject is
+                                    having 5 time bound
+                                    exams with overall time restriction as well as question based time restriction to
+                                    make child think
+                                    fast with accuracy.
+                                </p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="#" class="pt-2 fw-semibold darkblue">Buy Paperwise</a>
+                                    <button class="btn btn-warning rounded-2 px-3 py-2">Buy Subjectwise →</button>
+                                    <button class="btn btn-dark rounded-2 px-3 py-2">Buy Class →</button>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-md-6">
+                            <div class="card p-4 shadow-sm position-relative rounded-5">
+                                <span
+                                    class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Subjects
+                                    : 3</span>
+                                <h5>CLASS 10</h5>
+                                <p>class 10</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="#" class="pt-2 fw-semibold darkblue">Buy Paperwise</a>
+                                    <button class="btn btn-warning rounded-2 px-3 py-2">Buy Subjectwise →</button>
+                                    <button class="btn btn-dark rounded-2 px-3 py-2">Buy Class →</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-4 shadow-sm position-relative rounded-5">
+                                <span
+                                    class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Subjects
+                                    : 1</span>
+                                <h5>CLASS 12</h5>
+                                <p>class 12</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="#" class="pt-2 fw-semibold darkblue">Buy Paperwise</a>
+                                    <button class="btn btn-warning rounded-2 px-3 py-2">Buy Subjectwise →</button>
+                                    <button class="btn btn-dark rounded-2 px-3 py-2">Buy Class →</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-4 shadow-sm position-relative rounded-5">
+                                <span
+                                    class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Subjects
+                                    : 6</span>
+                                <h5>CLASS 5</h5>
+                                <p>class 5</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="#" class="pt-2 fw-semibold darkblue">Buy Paperwise</a>
+                                    <button class="btn btn-warning rounded-2 px-3 py-2">Buy Subjectwise →</button>
+                                    <button class="btn btn-dark rounded-2 px-3 py-2">Buy Class →</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-4 shadow-sm position-relative rounded-5">
+                                <span
+                                    class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Subjects
+                                    : 1</span>
+                                <h5>CLASS 9</h5>
+                                <p>class 9</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="#" class="pt-2 fw-semibold darkblue">Buy Paperwise</a>
+                                    <button class="btn btn-warning rounded-2 px-3 py-2">Buy Subjectwise →</button>
+                                    <button class="btn btn-dark rounded-2 px-3 py-2">Buy Class →</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-4 shadow-sm position-relative rounded-5">
+                                <span
+                                    class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Subjects
+                                    : 7</span>
+                                <h5>CLASS 4</h5>
+                                <p>class 4</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="#" class="pt-2 fw-semibold darkblue">Buy Paperwise</a>
+                                    <button class="btn btn-warning rounded-2 px-3 py-2">Buy Subjectwise →</button>
+                                    <button class="btn btn-dark rounded-2 px-3 py-2">Buy Class →</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="competitive">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card p-4 position-relative competative-section rounded-5">
+                                <span class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Papers
+                                    : 11</span>
+                                <h5>Speed Exam - Level 1 (Multiplication and Division)</h5>
+                                <p class="mb-3">
+                                    “Live exams to increase your speed in calculations” #Increase speed, accuracy and
+                                    efficiency.
+                                    (Rs. 50 per exam. For 10 Exams 20% Discount @ Rs. 400)
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                                    <h6 class="fs-5 mb-0">₹ 8.00</h6>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <a href="#" class="fw-bold text-muted text-decoration-none">View Papers</a>
+                                        <button class="btn btn-dark rounded-3 px-3 py-2">Buy Now →</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-4 position-relative competative-section rounded-5">
+                                <span class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Papers
+                                    : 5</span>
+                                <h5>Speed Test GK</h5>
+                                <p class="mb-3">
+                                    This exam is practice paper to test your general awareness as well as general
+                                    knowledge. It is useful
+                                    for students preparing for all the competitive exams. Ace yourself!!! Total 5
+                                    practice exams in this
+                                    series. Purchase individual papers or in bulk.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                                    <h6 class="fs-5 mb-0">₹ 200.00</h6>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <a href="#" class="fw-bold text-muted text-decoration-none">View Papers</a>
+                                        <button class="btn btn-dark rounded-3 px-3 py-2">Buy Now →</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-4 position-relative competative-section rounded-5">
+                                <span class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Papers
+                                    : 10</span>
+                                <h5>Speed Vocabulary Builder</h5>
+                                <p class="mb-3">
+                                    English vocabulary is crucial for all competitive exams. The specially designed live
+                                    exams will
+                                    increase your word power thereby increases your chance multifold to succeed in all
+                                    competitive exams.
+                                    You can purchase a single paper @ Rs 50 each or complete set of 10 exams @ Rs. 400.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                                    <h6 class="fs-5 mb-0">₹ 1.00</h6>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <a href="#" class="fw-bold text-muted text-decoration-none">View Papers</a>
+                                        <button class="btn btn-dark rounded-3 px-3 py-2">Buy Now →</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-4 position-relative competative-section rounded-5">
+                                <span class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2">Papers
+                                    : 10</span>
+                                <h5>Speed Exam - Level 1 (Addition and Substraction)</h5>
+                                <p class="mb-3">
+                                    “Live exams to increase your speed in calculations” #Increase speed, accuracy and
+                                    efficiency.
+                                    (Rs. 50 per exam. For 10 Exams 20% Discount @ Rs. 400)
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                                    <h6 class="fs-5 mb-0">₹ 400.00</h6>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <a href="#" class="fw-bold text-muted text-decoration-none">View Papers</a>
+                                        <button class="btn btn-dark rounded-3 px-3 py-2">Buy Now →</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-4 position-relative competative-section rounded-5">
+                                <span class="badge bg-warning text-dark position-absolute top-0 end-0 px-4 py-2
+                                ">Papers
+                                    : 0</span>
+                                <h5>Public Examinations</h5>
+                                <p class="mb-3" style="color: rgb(67, 67, 67);">
+                                    Test
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                                    <h6 class="fs-5 mb-0">₹ 10.00</h6>
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <a href="#" class="fw-bold text-muted text-decoration-none">View Papers</a>
+                                        <button class="btn btn-dark rounded-3 px-3 py-2">Buy Now →</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="olympiad">
+                <div class="container py-4 text-center text-muted">
+                    <p> NO EXAMS</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="result-section mt-4">
+        <div class="container py-4 result-top text-center">
+            <h2 class="mb-3">Result Announcement</h2>
+            <p>
+                As it is said, "Hard work definitely pays off". <br />
+                So, here is the best part- "RESULTS", for what you have worked hard.
+            </p>
+        </div>
+        <div class="container pb-4">
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-light rounded-5 h-100 p-4 text-center Announcement">
+                        <h2 class="my-2 pb-2">KIDZ CARNIVAL-Shloka Contest 2024</h2>
+                        <img src="/task-3/asset/images/photo1.jpg" alt="photo1" class="img-fluid">
+                        <h3>Shraddha S</h3>
+                        <p class="text-warning m-0 fw-bold">Winner</p>
+                        <p class="p-3">
+                            Shraddha S of Class UKG, RNS Vidyaniketan from Bengaluru has won the "KIDZ CARNIVAL-Shloka
+                            Contest". FirstEdu wishes her All the best for future. Keep Shining!!!!
                         </p>
-
-                        <div class="d-flex gap-3">
-                            <a href="#" class="">Buy Paperwise</a>
-                            <button class="btn btn-warning rounded-2 px-4 py-2">Buy Subjectwise →</button>
-                            <button class="btn btn-dark rounded-2">Buy Class →</button>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-6 popular-section">
-                    <div class="card p-4 shadow-sm position-relative">
-
-                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 rounded-pill px-3 py-2">
-                            Subjects : 3
-                        </span>
-
-                        <h5 class="fw-bold">CLASS 10</h5>
-                        <p>class 10</p>
-
-                        <div class="d-flex gap-3">
-                            <a href="#" class="">Buy Paperwise</a>
-                            <button class="btn btn-warning rounded-2 px-4 py-2">Buy Subjectwise →</button>
-                            <button class="btn btn-dark rounded-2">Buy Class →</button>
-                        </div>
-
                     </div>
                 </div>
 
-                <!-- COPY SAME BLOCK FOR OTHER CLASSES -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-light rounded-5 h-100 p-4 text-center Announcement">
+                        <h2 class="my-2 pb-2">KIDZ CARNIVAL- Extempore Contest 2024</h2>
+                        <img src="/task-3/asset/images/photo2.jpg" alt="photo2" class="img-fluid">
+                        <h3>Vanshikha Kumar</h3>
+                        <p class="text-warning m-0 fw-bold">EXCELLENT</p>
+                        <p class="p-3">
+                            Vanshikha Kumar of Class 7, Presidium, Punjabi Bagh from New Delhi has shown
+                            her excellence in the "KIDZ CARNIVAL-Extempore Contest". She is an incredible orator
+                            with captivating voice and FirstEdu wishes her All the best for future. Keep Shining!!!!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-light rounded-5 h-100 p-4 text-center Announcement">
+                        <h2 class="my-2 pb-2">VINCI ART CONTEST "WINNER"</h2>
+                        <img src="/task-3/asset/images/photo3.jpg" alt="photo3" class="img-fluid">
+                        <h3>Shreesh Varma</h3>
+                        <p class="text-warning m-0 fw-bold">Winner</p>
+                        <p class="p-3">
+                            Shreesh Varma of Class 8, Prudence School Dwarka from Delhi has won the
+                            "VINCI ART CONTEST 2024". He is a budding talent and FirstEdu wishes him All the best
+                            for future. Keep Shining!!!!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="bg-light rounded-5 h-100 p-4 text-center Announcement">
+                        <h2 class="my-2 pb-2">KIDZ CARNIVAL- Extempore Contest 2024</h2>
+                        <img src="/task-3/asset/images/photo4.jpg" alt="photo4" class="img-fluid">
+                        <h3>Jacinta D'souza</h3>
+                        <p class="text-warning m-0 fw-bold">Winner</p>
+                        <p class="p-3">
+                            Jacinta D'souza of Class 3, Convent Of Jesus and Mary High School from Mumbai
+                            has won the "KIDZ CARNIVAL-Extempore Contest". She is a budding orator and FirstEdu
+                            wishes her All the best for future. Keep Shining!!!!
+                        </p>
+                    </div>
+                </div>
 
             </div>
         </div>
-        <div class="tab-pane fade" id="competitive">
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card p-4 shadow-sm position-relative">
+    </section>
 
-                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 rounded-pill px-3 py-2">
-                            Papers : 11
-                        </span>
 
-                        <h5 class="fw-bold">Speed Exam - Level 1</h5>
-                        <p>"Live exams to increase your speed in calculations..."</p>
+    <section class="mt-4 p-4">
+        <div class="container">
+            <div class="row gx-4 gy-4 align-items-start">
+                <div class="col-lg-6">
+                    <h2 class="fs-1 fw-bold">Our Latest News</h2>
+                    <p class="fw-semibold fs-5 text-muted">Launching</p>
+                    <ul class="ps-0" style="list-style: none;">
+                        <li>⇒ Practice papers for school students.</li>
+                        <li>⇒ Competitive exams for skills enhancement.</li>
+                        <li>⇒ Olympiad to identify young geniuses.</li>
+                        <li>⇒ Events to sharpen personality and soft skills.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="news-section p-4 p-md-5">
+                        <h6 class="fw-semibold mb-4">PRESS RELEASE</h6>
+                        <div class="scroll-box">
+                            <div class="news-item">
+                                <h6>
+                                    <i class="fa-solid fa-calendar" style="color: #021940;"></i> April 25, 2024
+                                </h6>
+                                <div class="d-flex gap-3 align-items-start mt-2">
+                                    <img src="/task-3/asset/images/20_discount_80x80_image.jpg" alt="discount"
+                                        width="80" height="80" />
+                                    <p class="mb-0" style="color: rgb(67, 67, 67);">
+                                        SPEED TEST!! Boost your speed and accuracy in calculations with our newly
+                                        launched SPEED TESTS in just ₹50.
+                                    </p>
+                                </div>
+                            </div>
 
-                        <h6 class="fw-bold">₹ 8.00</h6>
-
-                        <div class="d-flex gap-3">
-                            <a href="#" class="fw-bold">View Papers</a>
-                            <button class="btn btn-dark rounded-pill">Buy Now →</button>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade text-center p-5" id="olympiad">
-            <p class="text-muted fs-5">No exams.</p>
+    </section>
+
+
+    <section class="blogs mt-4 py-4">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <h3 class="fs-1 fw-bold mb-0">Recent Blogs</h3>
+            <button class="btn btn-warning blogs-btn px-4 py-3">
+                VIEW MORE <i class="fa fa-arrow-right"></i>
+            </button>
+        </div>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 blog-content bg-light rounded-5 p-3">
+                    <img src="/task-3/asset/images/blog.jpg" alt="blog" class="img-fluid rounded-4">
+                    <h2 class="my-3 fw-semibold">Importance of exam</h2>
+                    <p style="color: rgb(67, 67, 67);">Exams Necessary for students’ growth</p>
+                    <a href="#" class="text-decoration-none">Read more <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mt-5">
+        <div class="container text-center mb-4">
+            <h1 class="fw-bold fs-1">What Students Say</h1>
+            <p class="text-muted">Their Love and Faith!</p>
         </div>
 
+        <div class="container">
+            <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators custom-indicators">
+                    <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="1"></button>
+                </div>
+
+                <div class="carousel-inner">
 
 
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center g-4">
+                            <div class="col-12 col-lg-6">
+                                <div class="review-card p-4 rounded-4 h-100">
+                                    <div class="d-flex gap-3 align-items-start">
+                                        <img src="/task-3/asset/images/rishab.jpg" class="rounded-circle review-img"
+                                            alt="Rishabh" />
+                                        <div class="pe-lg-5">
+                                            <h4 class="fw-bold mb-1">Rishabh Sahu</h4>
+                                            <p class="small text-muted mb-2">
+                                                MBA, Jaipuria Institute Of Management, Lucknow
+                                            </p>
+                                            <p class="mt-3 text-muted">
+                                                Hi, I took Vocabulary builder examination, which has really improved my
+                                                language as well as my vocabulary. It will really help the student
+                                                prepare
+                                                for any competitive examination. Overall, it is a great website to learn
+                                                and
+                                                practice!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="review-card p-4 rounded-4 h-100">
+                                    <div class="d-flex gap-3 align-items-start">
+                                        <img src="/task-3/asset/images/jyothi.jpg" class="rounded-circle review-img"
+                                            alt="Jyothi" />
+                                        <div class="pe-lg-5">
+                                            <h4 class="fw-bold mb-1">Jyothi Singh</h4>
+                                            <p class="small text-muted mb-2">Parent</p>
+                                            <p class="mt-3 text-muted">
+                                                Hi, It was a great opportunity for my daughter to participate in the
+                                                competition
+                                                by FirstEdu. As a parent we are very happy to be a part of this great
+                                                platform,we feel that this platform is a excellent opportunity for all
+                                                the
+                                                budding learning to showcase their talent and learn through first edu,as
+                                                they
+                                                provide ample opportunity and ideas for getting success apart from
+                                                regular
+                                                studies, Thank you so much for providing us this wonderful platform it
+                                                was great
+                                                learning experience we would like to recommend first edu to my daughter
+                                                school
+                                                and among my friends as well so that they can also feel the difference
+                                                and make
+                                                their kids more confident and great learner.
+                                            </p>
+                                        </div>
+                                    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center g-4">
+                            <div class="col-12 col-lg-6">
+                                <div class="review-card p-4  rounded-4 h-100">
+                                    <div class="d-flex gap-3 align-items-start">
+                                        <img src="/task-3/asset/images/rochelll.jpg" class="rounded-circle review-img"
+                                            alt="Rochell" />
+                                        <div class="pe-lg-5">
+                                            <h4 class="fw-bold mb-1">Rochell Desoza</h4>
+                                            <p class="small text-muted mb-2">Teacher</p>
+                                            <p class="mt-3 text-muted">
+                                                First Edu has truly provided an excellent platform for my daughter to
+                                                showcase
+                                                her talent in extempore. The experience has been incredibly enriching,
+                                                and I am
+                                                thoroughly impressed by the level of organization and cooperation
+                                                demonstrated
+                                                by the event coordinators. The supportive environment created by First
+                                                Edu
+                                                allowed my daughter to shine and express herself confidently. The
+                                                organizers
+                                                were not only efficient but also very approachable, making the entire
+                                                process
+                                                smooth and enjoyable. I highly recommend First Edu for anyone looking to
+                                                provide
+                                                their children with opportunities to develop and display their skills in
+                                                a
+                                                nurturing and well-structured setting.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <div class="review-card p-4 rounded-4 h-100">
+                                    <div class="d-flex gap-3 align-items-start">
+
+                                        <div class="pe-lg-5">
+                                            <h4 class="fw-bold mb-1">Akshatha S J</h4>
+                                            <p class="small text-muted mb-2">Parent</p>
+                                            <p class="mt-3 text-muted">
+                                                Thanks to FirstEdu for organising various competitions. My daughter
+                                                Shraddha S
+                                                was the winner of Shloka recitation competition. Definitely it's a
+                                                confidence
+                                                booster and encouragement to the kids.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 offer">
+        <div class="container py-4">
+            <div class="row align-items-center gx-4 gy-4">
+                <div class="col-lg-6">
+                    <h1 class="fs-1 fw-bold">What we offer</h1>
+                    <p style="color: rgb(67, 67, 67);">
+                        At <span class="fw-bold">FirstEdu</span> we offer-
+                    </p>
+                    <ul class="ps-0" style="list-style: none;">
+                        <li>⇒ Perfection</li>
+                        <li>⇒ Confidence</li>
+                        <li>⇒ A clear concept</li>
+                        <li>⇒ Efficiency</li>
+                        <li>⇒ Excellence</li>
+                        <li>⇒ Open mind to think high</li>
+                        <li>⇒ Speed</li>
+                        <li>⇒ Aptitude</li>
+                        <li>⇒ Altitude</li>
+                        <li>⇒ Happiness</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="/task-3/asset/images/we-offer.png" alt="we-offer" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="events mt-4">
+        <div class="container text-center">
+            <h1 class="fs-1 fw-bold">Our Events</h1>
+            <p class="text-muted lh-base">
+                FirstEdu conducts wide range of creative events which encourages brainstorming and
+                can cause the grey matters to work overtime (🙂) that too in fun filled manner.
+            </p>
+        </div>
+        <div class="container mt-3">
+            <div class="row px-3 px-md-5 g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="fs-5 fw-semibold mb-1 event-img">Test</h3>
+                    <a href="#" >
+                        <img src="/task-3/asset/images/hoverimg.jpg" alt="hoverimg"
+                            class="rounded-5 event-img img-fluid">
+
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="fs-5 fw-semibold mb-1">b</h3>
+                    <a href="#">
+                        <img src="/task-3/asset/images/hoverimg.jpg" alt="hoverimg"
+                            class="rounded-5 event-img img-fluid" >
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="fs-5 fw-semibold mb-1 hover-img">demo</h3>
+                    <a href="#">
+                        <img src="/task-3/asset/images/hoverimg.jpg" alt="hoverimg"
+                            class="rounded-5 event-img img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center mt-4 pb-3">
+            <a href="#" class="btn events-btn bg-warning border-0 rounded-3 px-4 py-3 fw-semibold">
+                VIEW MORE EVENTS <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="footer mt-4">
+        <div class="bg-warning">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center p-4 gap-3">
+                <h3 class="fs-4 fw-normal mb-0">Do you want ask anything to us? Ask us here</h3>
+                <a href="#">
+                    <button class="footer-top-btn">
+                        CLICK HERE TO ASK <i class="fa fa-arrow-right"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-black text-light">
+            <div class="container p-4">
+                <div class="row pb-4" style="border-bottom: 0.5px solid rgb(87, 87, 87);">
+                    <div class="col-lg-3 mb-4 mb-lg-0">
+                        <p class="fs-5 fw-semibold mb-3">About Company</p>
+                        <img src="/task-3/asset/images/logo.png" alt="logo" class="bg-light p-1 mb-2"
+                            style="max-width: 160px;">
+                        <p style="font-size: 14px; color: rgb(203, 202, 202);">
+                            It is an online platform which caters to the need of all the students and make them
+                            better version of themselves!!
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <p class="fs-5 fw-semibold mb-3">School Exam</p>
+                                <ul class="p-0 fw-semibold"
+                                    style="list-style: none; font-size: 14px; color: rgb(203, 202, 202);">
+                                    <li>CLASS 1</li>
+                                    <li>CLASS 9</li>
+                                    <li>CLASS 12</li>
+                                    <li>CLASS 5</li>
+                                    <li>CLASS 10</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <p class="fs-5 fw-semibold mb-3">Competitive Exam</p>
+                                <ul class="p-0 fw-semibold"
+                                    style="list-style: none; font-size: 14px; color: rgb(203, 202, 202);">
+                                    <li>Speed Exam - Level 1 (Multiplication and Division)</li>
+                                    <li>Speed Test GK</li>
+                                    <li>Speed Vocabulary Builder</li>
+                                    <li>Speed Exam - Level 1 (Addition and Substraction)</li>
+                                    <li>Public Examinations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <p class="fs-5 fw-semibold mb-3">Quick Links</p>
+                                <ul class="p-0 fw-semibold"
+                                    style="list-style: none; font-size: 14px; color: rgb(203, 202, 202);">
+                                    <li>About us</li>
+                                    <li>Why choose us</li>
+                                    <li>Blog</li>
+                                    <li>Announcement</li>
+                                    <li>Download</li>
+                                    <li>Importance of exam</li>
+                                    <li>Events</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <p class="fs-5 fw-semibold mb-3">Get in touch</p>
+                                <ul class="p-0 fw-semibold"
+                                    style="list-style: none; font-size: 14px; color: rgb(203, 202, 202);">
+                                    <li>
+                                        <p style="font-size: 14px; color: rgb(203, 202, 202);">
+                                            Please reach us @
+                                        </p>
+                                    </li>
+                                    <li><i class="fa-solid fa-phone me-2" style="color: #cbcaca;"></i>+91 93538 85583
+                                    </li>
+                                    <li>info@firstedu.co.in</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-3">
+                    <div class="col-md-8 text-center text-md-start mb-2 mb-md-0">
+                        <p class="footer-end mb-0">
+                            © Copyright@2023 First Step Edutech.
+                            <span class="text-warning">All Rights Reserved</span> |
+                            <span class="text-warning">Terms and Conditions</span> |
+                            <span class="text-warning">Privacy Policy</span> |
+                            <span class="text-warning">Disclaimer</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center text-md-end">
+                        <p class="footer-end mb-0">
+                            Designed and developed by
+                            <span class="text-warning">First Step Edutech</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
+</html>

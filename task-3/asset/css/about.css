@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.about-banner{
+    background-color: #f8fdfe;
+    margin-top: 120px;
+}
+.about-banner-text h1{
+    font-size: 42px;
+    color: #022a4b;
+}
+.about-p{
+    padding-right: 140px;
+}
+.about-p p{
+    font-size: 15px;
+    color: grey;
+    font-weight: 500;
+}
+.about-para{
+    font-size: 15px;
+    padding-right: 100px;
+}
+.about-text h2{
+    font-family: 40px;
+    font-weight: 900;
+}
+.about-text h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+.about-text h4{
+    font-size: 23px;
+    font-weight: 600;
+}
+.image-horizontal img{
+    width: 110px;
+    height: 100px;
+    box-shadow: inset #00000029 0px 3px 10px;
+    padding: 30px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+@media (max-width: 1200px) {
+    .about-p {
+        padding-right: 40px !important;
+        padding-left: 10px !important;
+    }
+    .about-para {
+        padding-right: 40px !important;
+    }
+}
+@media (max-width: 992px) {
+    .about-banner-text {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .about-banner-text h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .about-p, .about-para {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        text-align: center;
+    }
+
+    .about-banner img {
+        margin-top: 40px;
+    }
+    .about-text {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .about-text h2 {
+        font-size: 32px;
+    }
+    .about-text h3 {
+        font-size: 24px;
+    }
+    .about-text h4 {
+        font-size: 20px;
+    }
+
+    .about-p p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .about-banner-text h1 {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .about-banner {
+        margin-top: 80px;
+    }
+
+    .about-p, .about-para {
+        padding: 0 5px !important;
+        font-size: 14px;
+    }
+    .about-advantage img {
+        width: 85% !important;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-banner-text h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .about-p p, .about-para {
+        font-size: 13px !important;
+    }
+    .about-text h2 {
+        font-size: 26px;
+    }
+    .about-text h3 {
+        font-size: 20px;
+    }
+    .about-text h4 {
+        font-size: 18px;
+    }
+}
