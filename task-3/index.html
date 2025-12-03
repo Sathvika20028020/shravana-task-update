@@ -22,11 +22,11 @@
 <body style="font-family: 'Poppins', sans-serif;">
 
     <header>
-        <!-- heade -->
+
 
         <nav class="navbar navbar-expand-xl fixed-top">
             <div class="container">
-                <a href="#" class="navbar-brand">
+                <a href="#" class="navbar-brand m-0">
                     <img src="/task-3/asset/images/logo.png" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -65,7 +65,7 @@
 
 
 
-    <section class="background mt-5">
+    <section class="background">
         <div class="container">
             <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
 
@@ -120,8 +120,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Slide 3 -->
                     <div class="carousel-item ">
                         <div class="row align-items-center py-5">
                             <div class="col-lg-6 mb-4 mb-lg-0 slider-3">
@@ -145,7 +143,7 @@
                         </div>
                     </div>
 
-                    <!-- Slide 4 -->
+
                     <div class="carousel-item ">
                         <div class="row align-items-center py-5">
                             <div class="col-lg-6 mb-4 mb-lg-0 slider-4">
@@ -173,7 +171,7 @@
                         </div>
                     </div>
 
-                    <!-- Slide 5 -->
+
                     <div class="carousel-item ">
                         <div class="row align-items-center py-5">
                             <div class="col-lg-6 mb-4 mb-lg-0 slider-5">
@@ -247,16 +245,19 @@
             <h1 class="mb-3">Popular Exams</h1>
         </div>
         <div class="container d-flex justify-content-center">
-            <ul class="list-unstyled tab-pills tabs" id="examTabs" role="tablist">
+            <ul class="list-unstyled tab-pills tabs p-0" id="examTabs" role="tablist">
                 <li class="tab-item">
-                    <button class="tab-link active py-1 px-5 fw-normal" data-bs-toggle="pill" data-bs-target="#school">School Exam</button>
+                    <button class="tab-link active py-2 px-5 fw-normal" data-bs-toggle="pill"
+                        data-bs-target="#school">School Exam</button>
                 </li>
                 <li class="tab-item">
-                    <button class="tab-link py-1 px-5 fw-normal" data-bs-toggle="pill" data-bs-target="#competitive">Competitive
+                    <button class="tab-link py-2 px-5 fw-normal" data-bs-toggle="pill"
+                        data-bs-target="#competitive">Competitive
                         Exam</button>
                 </li>
                 <li class="tab-item">
-                    <button class="tab-link py-1 px-5 fw-normal" data-bs-toggle="pill" data-bs-target="#olympiad">Olympiad Exam</button>
+                    <button class="tab-link py-2 px-5 fw-normal" data-bs-toggle="pill"
+                        data-bs-target="#olympiad">Olympiad Exam</button>
                 </li>
             </ul>
         </div>
@@ -639,7 +640,7 @@
                         <div class="row justify-content-center g-4">
                             <div class="col-12 col-lg-6">
                                 <div class="review-card p-4 rounded-4 h-100">
-                                    <div class="d-flex gap-3 align-items-start">
+                                    <div class="d-lg-flex gap-3 align-items-start">
                                         <img src="/task-3/asset/images/rishab.jpg" class="rounded-circle review-img"
                                             alt="Rishabh" />
                                         <div class="pe-lg-5">
@@ -661,7 +662,7 @@
                             </div>
                             <div class="col-12 col-lg-6">
                                 <div class="review-card p-4 rounded-4 h-100">
-                                    <div class="d-flex gap-3 align-items-start">
+                                    <div class="d-lg-flex gap-3 align-items-start">
                                         <img src="/task-3/asset/images/jyothi.jpg" class="rounded-circle review-img"
                                             alt="Jyothi" />
                                         <div class="pe-lg-5">
@@ -693,12 +694,11 @@
                         </div>
                     </div>
 
-                    <!-- Slide 2 -->
                     <div class="carousel-item">
                         <div class="row justify-content-center g-4">
                             <div class="col-12 col-lg-6">
                                 <div class="review-card p-4  rounded-4 h-100">
-                                    <div class="d-flex gap-3 align-items-start">
+                                    <div class="d-lg-flex gap-3 align-items-start">
                                         <img src="/task-3/asset/images/rochelll.jpg" class="rounded-circle review-img"
                                             alt="Rochell" />
                                         <div class="pe-lg-5">
@@ -731,7 +731,7 @@
 
                             <div class="col-12 col-lg-6">
                                 <div class="review-card p-4 rounded-4 h-100">
-                                    <div class="d-flex gap-3 align-items-start">
+                                    <div class="d-lg-flex gap-3 align-items-start">
 
                                         <div class="pe-lg-5">
                                             <h4 class="fw-bold mb-1">Akshatha S J</h4>
@@ -789,42 +789,60 @@
         <div class="container text-center">
             <h1 class="fs-1 fw-bold">Our Events</h1>
             <p class="text-muted lh-base">
-                FirstEdu conducts wide range of creative events which encourages brainstorming and
-                can cause the grey matters to work overtime (🙂) that too in fun filled manner.
+                FirstEdu conducts wide range of creative events which encourages brainstorming
+                and can cause the grey matters to work overtime (🙂) that too in fun filled manner.
             </p>
         </div>
         <div class="container mt-3">
             <div class="row px-3 px-md-5 g-4">
                 <div class="col-lg-4 col-md-6">
-                    <h3 class="fs-5 fw-semibold mb-1 event-img">Test</h3>
-                    <a href="#" >
-                        <img src="/task-3/asset/images/hoverimg.jpg" alt="hoverimg"
-                            class="rounded-5 event-img img-fluid">
+                    <div class="img-box rounded-5 overflow-hidden">
+                        <img src="/task-3/asset/images/hoverimg.jpg" class="img-fluid">
+                        <span class="tag-label">Test</span>
+                        <p class="event-date">
+                            <i class="fa-solid fa-calendar-days me-2"></i>16 Oct 2025
+                        </p>
+                        <button class="expired-btn">
+                            Expired <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="img-box rounded-5 overflow-hidden">
+                        <img src="/task-3/asset/images/hoverimg.jpg" class="img-fluid">
 
-                    </a>
+                        <span class="tag-label">b</span>
+
+                        <p class="event-date">
+                            <i class="fa-solid fa-calendar-days me-2"></i>09 Oct 2025
+                        </p>
+
+                        <button class="expired-btn">
+                            Expired <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h3 class="fs-5 fw-semibold mb-1">b</h3>
-                    <a href="#">
-                        <img src="/task-3/asset/images/hoverimg.jpg" alt="hoverimg"
-                            class="rounded-5 event-img img-fluid" >
-                    </a>
+                    <div class="img-box rounded-5 overflow-hidden">
+                        <img src="/task-3/asset/images/hoverimg.jpg" class="img-fluid">
+
+                        <span class="tag-label">demo</span>
+
+                        <p class="event-date">
+                            <i class="fa-solid fa-calendar-days me-2"></i>07 Oct 2025
+                        </p>
+
+                        <button class="expired-btn">
+                            Expired <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <h3 class="fs-5 fw-semibold mb-1 hover-img">demo</h3>
-                    <a href="#">
-                        <img src="/task-3/asset/images/hoverimg.jpg" alt="hoverimg"
-                            class="rounded-5 event-img img-fluid">
-                    </a>
-                </div>
+
             </div>
         </div>
-        <div class="container text-center mt-4 pb-3">
-            <a href="#" class="btn events-btn bg-warning border-0 rounded-3 px-4 py-3 fw-semibold">
-                VIEW MORE EVENTS <i class="fa fa-arrow-right"></i>
-            </a>
-        </div>
+
     </section>
+
 
     <section class="footer mt-4">
         <div class="bg-warning">

@@ -3,7 +3,7 @@
 }
 .scl-content a{
     text-decoration: none;
-    color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.6) !important;
     font-size: 16px;
 }
 .nav-btn{
@@ -22,7 +22,7 @@
 .nav-btn:hover{
     background-color: #011f60;
 }
-@media (min-width:768px) and (max-width:1200px){
+@media (min-width:768px) and (max-width:1199px){
   
     .a{
         display: flex !important;
@@ -33,6 +33,23 @@
 }
 @media (max-width:320px){
     .navbar-brand img{
-        width: 200px;
+        width: 170px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    .navbar-nav.a {
+        gap: 10px;           
+        align-items: center;
+    }
+
+    .scl-content {
+        flex-wrap: wrap;     
+        justify-content: center;
+    }
+
+    .nav-btn {
+        padding: 8px 12px !important;
+        font-size: 14px;
     }
 }
