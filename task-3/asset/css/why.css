@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.top-section{
+    margin-top: 100px;
+    background-color: #f8fdfe;
+}
+.top-section-content h2{
+font-size: 40px;
+font-weight: 600;
+color: #022a4b;
+}
+.top-section-content p{
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(156, 155, 155);
+    padding-right: 135px;
+}
+.knowledge-content h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.knowledge-content p{
+    font-size: 15px;
+    color: rgb(103, 103, 103);
+    font-weight: 200;
+}
+@media (max-width: 1200px) {
+  .top-section-content p {
+    padding-right: 60px;
+  }
+  .knowledge-content p {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .top-section-content h2 {
+    font-size: 32px;
+  }
+  .top-section-content p {
+    padding-right: 20px;
+  }
+  .knowledge-content h2 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .top-section-content p,
+  .knowledge-content p {
+    padding-right: 0;
+  }
+.knowledge-content {
+    margin-top: 20px;
+  }
+  .top-section img,
+  .knowledge img {
+    max-width: 350px;
+  }
+}
+@media (max-width: 576px) {
+  .top-section-content h2 {
+    font-size: 28px;
+  }
+  .knowledge-content h2 {
+    font-size: 28px;
+  }
+ .top-section img,
+  .knowledge img {
+    max-width: 300px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .top-section-content h2,
+  .knowledge-content h2 {
+    font-size: 25px;
+  }
+.top-section img,
+  .knowledge img {
+    max-width: 260px;
+  }
+}

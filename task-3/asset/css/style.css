@@ -144,6 +144,9 @@ button.carousel-control-next {
   background-color: #ffc400;
   color: #000 !important;
 }
+.tab-item{
+  margin: 1px;
+}
 .tab-item:hover{
   color: none;
 }
